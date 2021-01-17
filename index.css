@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  border: 1px solid rebeccapurple;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: lightcoral;
+  width: 150px;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+img:hover,
+image:focus {
+  background-color: lightseagreen;
+}
